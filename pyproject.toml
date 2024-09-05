@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "nixie-clock"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gpiozero = "^2.0.1"
+lgpio = "^0.2.2.0"
+pigpio = "^1.78"
+rpi-gpio = "^0.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
